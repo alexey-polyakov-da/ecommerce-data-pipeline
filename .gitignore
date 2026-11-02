@@ -1,0 +1,27 @@
+
+
+# Python virtual environment
+.venv/
+venv/
+
+# Environment variables and passwords
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+output/data_quality_history.csv
